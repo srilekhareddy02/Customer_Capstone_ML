@@ -16,7 +16,7 @@ st.set_page_config(page_title = 'Customer Behaviour Analysis Web App', layout='c
 st.title('Customer Behaviour Analysis')
 st.image("""https://t4.ftcdn.net/jpg/02/97/85/17/360_F_297851731_apSBHOhfsy62vf9X1CGpH1FcvGHtsHEI.jpg""")
 #st.sidebar.image("vertical.jpg",use_column_width=True)
-st.sidebar.image("""https://media.istockphoto.com/photos/bar-graph-moving-up-on-digital-display-stock-market-and-finance-picture-id1219273018?s=612x612""")
+st.sidebar.image("""https://www.smartdatacollective.com/wp-content/uploads/2017/06/customer-behaviour-analysis.jpg""")
 # customer segmentation function
 def segment_customers(input_data):
     
