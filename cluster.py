@@ -9,6 +9,7 @@ import streamlit as st
 #from PIL import Image
 #load the model
 model = joblib.load('c2.pkl')
+backgroundColor="#1C6B6B"
 
 
 #page configuration
