@@ -4,20 +4,18 @@
 # In[ ]:
 
 
-import pickle
+import joblib
 import streamlit as st
-import pandas as pd
-import numpy as np
-from PIL import Image
+#from PIL import Image
 #load the model
-model = pickle.load(open('c2.pkl','rb'))
+model = joblib.load('c2.pkl')
 
 
 #page configuration
 st.set_page_config(page_title = 'Customer Behaviour Analysis Web App', layout='centered')
 st.title('Customer Behaviour')
-image=Image.open('ca.jpg')
-st.image(image,use_column_width=True)
+#image=Image.open('ca.jpg')
+st.image("""https://t4.ftcdn.net/jpg/02/97/85/17/360_F_297851731_apSBHOhfsy62vf9X1CGpH1FcvGHtsHEI.jpg""")
 
 # customer segmentation function
 def segment_customers(input_data):
