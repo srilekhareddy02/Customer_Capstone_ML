@@ -3,8 +3,8 @@
 
 # In[ ]:
 
-#from sklearn.externals import joblib
-import joblib
+from sklearn.externals import joblib
+#import joblib
 import pandas as pd
 import streamlit as st
 #from PIL import Image
