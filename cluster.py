@@ -18,7 +18,7 @@ st.title('Customer Behaviour Analysis')
 st.image("""https://t4.ftcdn.net/jpg/02/97/85/17/360_F_297851731_apSBHOhfsy62vf9X1CGpH1FcvGHtsHEI.jpg""")
 #st.sidebar.image("""https://media.istockphoto.com/photos/successful-business-concept-abstract-black-arrow-on-wooden-cubes-picture-id1226770160?k=20&m=1226770160&s=612x612&w=0&h=4K78W7GoQzI6fhLBJkk6BKzbTgFOuwuoSsSkASUuiOo=""")
 #st.sidebar.image("""https://lapaas.com/wp-content/uploads/2021/03/Consumer-Behaviour-in-hindi-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%B9%E0%A5%8B%E0%A4%A4%E0%A4%BE-%E0%A4%B9%E0%A5%88_-Complete-Guide-In-Hindi.jpg""")
-st.sidebar.image("""https://hotmart.com/media/2018/04/670x419-Comportamento-do-consumidor_EN.png""")
+st.sidebar.image("""https://hotmart.com/media/2018/04/670x419-Comportamento-do-consumidor_EN.png""",use_column_width=True)
 st.sidebar.image("""https://hotmart.com/media/2018/04/670x419-Comportamento-do-consumidor_EN.png""")
 st.sidebar.image("""https://hotmart.com/media/2018/04/670x419-Comportamento-do-consumidor_EN.png""")
 
