@@ -7,6 +7,5 @@ date
 scipy
 sklearn
 stats
-pickle
 streamlit
 joblib
