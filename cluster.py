@@ -4,13 +4,13 @@
 # In[ ]:
 
 #from sklearn.externals import joblib
-import pickle
-#import joblib
+#import pickle
+import joblib
 import pandas as pd
 import streamlit as st
 #from PIL import Image
 #load the model
-model = pickle.load(open('c2.pkl','rb'))
+model = joblib.load('c2.pkl')
 
 
 #page configuration
