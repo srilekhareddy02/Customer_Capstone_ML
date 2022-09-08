@@ -3,8 +3,6 @@
 
 # In[ ]:
 
-#from sklearn.externals import joblib
-#import pickle
 import joblib
 import pandas as pd
 import streamlit as st
@@ -15,10 +13,9 @@ model = joblib.load('c2.pkl')
 
 #page configuration
 st.set_page_config(page_title = 'Customer Behaviour Analysis Web App', layout='centered')
-st.title('Customer Behaviour')
-#image=Image.open('ca.jpg')
+st.title('Customer Behaviour Analysis')
 st.image("""https://t4.ftcdn.net/jpg/02/97/85/17/360_F_297851731_apSBHOhfsy62vf9X1CGpH1FcvGHtsHEI.jpg""")
-
+st.sidebar.image("vertical.jpg",use_column_width=True)
 # customer segmentation function
 def segment_customers(input_data):
     
